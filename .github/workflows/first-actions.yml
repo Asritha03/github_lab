@@ -11,3 +11,5 @@ jobs:
 
       - name: Print Hello, World
         run: echo "🎉 Hello, GitHub Actions!"
+      - name: List files
+        run: ls -l
