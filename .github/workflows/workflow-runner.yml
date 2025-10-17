@@ -1,0 +1,8 @@
+jobs:
+  build:
+    runs-on: [docker-runner]
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Hello from Dockerized Self-hosted Runner!"
+
+      
